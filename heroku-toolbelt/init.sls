@@ -9,8 +9,8 @@ heroku-toolbelt:
     - require_in:
       - pkg: heroku-toolbelt
     - require:
-      - pkg: python-software-properties
+      - pkg: heroku-toolbelt_python-software-properties
 
-python-software-properties:
+heroku-toolbelt_python-software-properties:
   pkg.installed
 {% endif %}
