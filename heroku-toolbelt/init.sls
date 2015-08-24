@@ -8,9 +8,4 @@ heroku-toolbelt:
     - key_url: https://toolbelt.heroku.com/apt/release.key
     - require_in:
       - pkg: heroku-toolbelt
-    - require:
-      - pkg: heroku-toolbelt_python-software-properties
-
-heroku-toolbelt_python-software-properties:
-  pkg.installed
 {% endif %}
